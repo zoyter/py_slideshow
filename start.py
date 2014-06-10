@@ -198,7 +198,7 @@ class App:
         self.btnBack.bind("<Button-1>", self.btnBackClick)
         self.btnForward.bind("<Button-1>", self.btnForwardClick)
         self.btnQuit.bind("<Button-1>", self.btnQuitClick)
-        
+        #Привязываем обработчики событий к чекбоксу
         self.chkBox1.bind("<Button-1>", self.chkBox1Click)
         
         #Обновляем окно
